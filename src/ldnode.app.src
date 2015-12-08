@@ -1,0 +1,12 @@
+{application, ldnode,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ldnode_app, []}},
+  {env, []}
+ ]}.
