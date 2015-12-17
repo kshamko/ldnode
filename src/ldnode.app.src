@@ -1,0 +1,11 @@
+{application, ldnode, [
+  {description, "behaviour for leader in a cluster of nodes"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {ldnode, []}},
+  {env, []}
+]}.
