@@ -1,13 +1,14 @@
 %%%-------------------------------------------------------------------
-%%% @author konstantin.shamko
-%%% @copyright (C) 2015, Konstantin Shamko <konstantin.shamko@gmail.com>
-%%% @doc
-%%%
-%%% @end
-%%% Created : 07. Dec 2015 2:42 PM
+%%% Description module ldnode
+%%%-------------------------------------------------------------------
+%%% Sometimes one need to have a leader in erlang nodes cluster.
+%%% This behaviour provides such a capability also it includes
+%%% monitoring of dying nodes and election of new leader node
 %%%-------------------------------------------------------------------
 -module(ldnode).
--author("konstantin.shamko").
+
+-author("Konstantin Shamko").
+-author_email("konstantin.shamko@gmail.com").
 
 -behaviour(gen_fsm).
 
